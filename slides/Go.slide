@@ -1,0 +1,113 @@
+# Go
+
+28.1.2021
+Johannes Hörmann
+https://github.com/aligator
+
+##
+
+.image Go-Logo_Aqua.jpg 531 469
+
+## Ziel
+
+- Multi-Core
+- Network
+- Web Programming
+- Viele beteiligte Programmierer
+- Skalierbare Entwicklung
+
+## Bisherige Sprachen
+
+- Komplexe Sprachenfeatures (js, c++, rust)
+- fehlende Garbage Collection (c, c++)
+- keine echte Concurrency (js)
+- lange Kompilierzeiten (java, c++)
+- kein / komplexes Dependency management (js, java, c)
+
+## Programmierer wird von der wirklichen Aufgabe abgehalten!
+
+.image meme.png 531 469
+
+## Köpfe Hinter Go
+
+- Rob Pike (UTF-8, Plan 9)
+- Ken Thombson (UNIX, C, Plan 9)
+- Robert Griesemer (V8 JS engine, Java HotSpot)
+
+## Fokus
+
+"Go's purpose is therefore not to do research into programming language design; it is to improve the working environment for its designers and their coworkers."
+- Rob Pike
+(Co-Designer of Go and Distinguished Engineer at Google)
+
+
+## Fokus
+
+- Lightweight
+- Programmierer Effizienz
+- Kompiliert
+- echte Concurrency
+- Garbage Collection
+- Statisch typisiert
+
+## Wie
+
+- Keine unbenutzten imports
+- Keine Dependency cylcles
+- Nur Public / Private
+- (noch) keine Generics
+- 40x schneller kompiliert wie C++
+- Stark Opinionated
+- Ein allgemein gültiger Linter
+
+## Hello World!
+.play -edit hello/main.go
+
+## Private / Public
+.play -edit private-public/main.go /START OMIT/,/END OMIT/
+
+## Funktionen
+.play -edit functions/main.go /START OMIT/,/END OMIT/
+
+## Variablen
+.play -edit variables/main.go /START OMIT/,/END OMIT/
+
+## Pointer
+.play -edit pointer/main.go /START OMIT/,/END OMIT/
+
+## For
+.play -edit for1/main.go /START OMIT/,/END OMIT/
+
+## For
+.play -edit for2/main.go /START OMIT/,/END OMIT/
+
+## For
+.play -edit for3/main.go /START OMIT/,/END OMIT/
+
+## Struct
+.play -edit struct1/main.go /START OMIT/,/END OMIT/
+
+## Struct
+.play -edit struct2/main.go /START OMIT/,/END OMIT/
+
+## Struct
+.play -edit struct3/main.go /START OMIT/,/END OMIT/
+
+## Composition
+.play -edit composition1/main.go /START OMIT/,/END OMIT/
+
+## Interface
+.play -edit interface1/main.go /START OMIT/,/END OMIT/
+
+## Channel
+.play -edit channel1/main.go /START OMIT/,/END OMIT/
+
+## Real World
+
+- [Go itself](https://github.com/golang/go)
+- [ProjectShare](https://github.com/Tiffinger-Thiel-GmbH/projectshare-api)
+- [GoSlice](https://github.com/aligator/GoSlice)
+- [GoFAT](https://github.com/aligator/GoFAT)
+- [Verless](https://github.com/verless/verless)
+- [Docker](https://github.com/docker)
+- [Kubernetes](https://github.com/kubernetes/kubernetes)
